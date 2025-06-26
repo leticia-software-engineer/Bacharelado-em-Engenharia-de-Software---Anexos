@@ -1,3 +1,4 @@
+//O seguinte programa realiza uma expressão algébrica que tem por objetivo encontrar o valor de Z
 programa
 {
 	inclua biblioteca Matematica --> m
