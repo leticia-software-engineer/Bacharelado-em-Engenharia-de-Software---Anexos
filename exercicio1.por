@@ -7,8 +7,8 @@ programa
 		real x, z, z1, z2, z3, z4, z5, z6, z7
 		escreva("Digite o valor de x: ")
 		leia(x)
-		z1 = m.potencia(2*x, 2)
-		z2 = m.potencia(3*x, x+1)
+		z1 = 2* m.potencia(x, 2)
+		z2 = 3* m.potencia(x, x+1)
 		z3 = (z1 - z2)/(2*x)
 		z4 = m.raiz(x+1, 2)
 		z5 = z4/4
