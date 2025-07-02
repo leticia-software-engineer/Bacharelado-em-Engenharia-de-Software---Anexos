@@ -11,15 +11,16 @@ programa
 		se (t.caracter_e_inteiro(c)){
 			escreva("número inteiro")
 		} 
-		senao se (tex.caixa_alta(c)){
- 	    	escreva("letra maiúscula")
-		}
-		senao se (tex.caixa_baixa(c)){
-			escreva("letra minúscula")
-		}
-		senao se (c = vazio) {
-			 escreva("vazio")
-		}
+	        senao se (caractere >= 'A' e caractere <= 'Z') {
+                      escreva("É uma letra maiúscula.")
+              } senao se (caractere >= 'a' e caractere <= 'z') {
+                      escreva("É uma letra minúscula.")
+              } senao se (caractere == ' ') {
+                      escreva("É um espaço em branco.")
+              } senao {
+                      escreva("É outro símbolo ou letra com acento.")
+    } 
+
 }
 
 }
