@@ -11,7 +11,8 @@ programa {
       para(j=1; j<=b; j++){
         soma = soma+((a*b)+Matematica.potencia(j+1,2))
       }
+  }
       escreva(soma)
-    }
+    
   }
 }
