@@ -8,11 +8,10 @@ programa {
     escreva("digite a senha: ")
     leia(senha)
 
-//funcao inteiro numero_caracteres(cadeia senha)
     numerodecaracteres = Texto.numero_caracteres(senha)
 
     }
-    enquanto(numerodecaracteres < 6 ou numerodecaracteres > 19 ou " ")
+    enquanto(numerodecaracteres < 6 ou numerodecaracteres > 19 ou Texto.posicao_texto(" ", senha, 0)!=-1)
     }
 
     
